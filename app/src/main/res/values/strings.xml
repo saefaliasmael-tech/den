@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">ديوني برو</string>
+    <string name="app_tagline">إدارة ذمم الزبائن والمبيعات الآجلة</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_customers">العملاء</string>
+    <string name="nav_products">المنتجات</string>
+    <string name="nav_invoices">الفواتير</string>
+    <string name="nav_payments">سجل الدفعات</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Common Actions & States -->
+    <string name="action_add">إضافة</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_search">بحث</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_refresh">تحديث</string>
+    <string name="action_call">اتصال</string>
+    <string name="action_whatsapp">واتساب</string>
+    <string name="state_loading">جاري التحميل…</string>
+    <string name="state_error">حدث خطأ أثناء تحميل البيانات</string>
+
+    <!-- Home Screen Dashboard -->
+    <string name="home_welcome">مرحباً بك في ديوني برو</string>
+    <string name="home_subtitle">نظام محاسبي محلي آمن لإدارة ديون الزبائن والمبيعات</string>
+    <string name="home_quick_sections">الوصول السريع</string>
+    <string name="home_status_title">المحرك المحاسبي المحلي</string>
+    <string name="home_status_desc">قاعدة بيانات محلية تعمل بالكامل دون اتصال بالإنترنت. الحسابات محمية بنظام الأعداد الصحيحة (Long).</string>
+    <string name="home_hero_total_debt">إجمالي الديون المستحقة</string>
+    <string name="home_hero_debtors_count">عملاء بذمم قائمة</string>
+    <string name="home_hero_cleared_count">حسابات مسددة بالكامل</string>
+    <string name="home_stat_customers">إجمالي العملاء</string>
+    <string name="home_stat_products">المنتجات المسجلة</string>
+    <string name="home_chart_title">توزيع الذمم المالية</string>
+    <string name="home_chart_empty">لا توجد ديون مستحقة حالياً. جميع الحسابات مسددة بالكامل.</string>
+    <string name="home_top_debtors_title">أعلى الذمم المطلوبة</string>
+    <string name="home_top_debtors_view_all">عرض الكل</string>
+
+    <!-- Customers Screen -->
+    <string name="customers_title">سجل العملاء</string>
+    <string name="customers_search_hint">ابحث باسم العميل أو رقم الهاتف…</string>
+    <string name="customers_empty_title">لا يوجد عملاء مضافون</string>
+    <string name="customers_empty_desc">ابدأ بإضافة أول عميل لتسجيل فواتيره ومتابعة ذمته المالية.</string>
+    <string name="customers_add_button">إضافة عميل جديد</string>
+    <string name="customers_add_dialog_title">إضافة عميل جديد</string>
+    <string name="customers_name_label">اسم العميل *</string>
+    <string name="customers_phone_label">رقم الهاتف *</string>
+    <string name="customers_whatsapp_label">رقم الواتساب (اختياري)</string>
+    <string name="customers_notes_label">ملاحظات (اختياري)</string>
+    <string name="customers_debt_label">الذمة الحالية:</string>
+    <string name="customers_currency">د.ع</string>
+    <string name="customers_status_cleared">خالص الذمة</string>
+    <string name="customers_status_debtor">مطلوب للدفتر</string>
+    <string name="customers_count_badge">%d عميل</string>
+
+    <!-- Products Screen -->
+    <string name="products_title">سجل المنتجات ووحدات البيع</string>
+    <string name="products_search_hint">ابحث باسم المنتج…</string>
+    <string name="products_empty_title">لا توجد منتجات مسجلة</string>
+    <string name="products_empty_desc">أضف منتجاتك ووحدات البيع وأسعارها لاستخدامها في الفواتير.</string>
+    <string name="products_add_button">إضافة منتج جديد</string>
+    <string name="products_add_dialog_title">إضافة منتج جديد</string>
+    <string name="products_name_label">اسم المنتج *</string>
+    <string name="products_unit_name_label">اسم وحدة البيع (مثال: كرتون، علبة، كيس) *</string>
+    <string name="products_unit_price_label">سعر الوحدة بالدينار (عدد صحيح) *</string>
+    <string name="products_description_label">وصف المنتج (اختياري)</string>
+    <string name="products_units_count">%d وحدات بيع</string>
+    <string name="products_default_unit_badge">افتراضية</string>
+    <string name="products_count_badge">%d منتج</string>
+
+    <!-- Foundational Screens -->
+    <string name="invoices_foundational_title">إدارة الفواتير</string>
+    <string name="invoices_foundational_desc">هيكل شاشة الفواتير جاهز. يتم إنشاء الفواتير بربط العملاء مع المنتجات بلقطات تاريخية غير قابلة للتعديل عند تغير الأسعار مستقبلاً.</string>
+    <string name="payments_foundational_title">سجل المقبوضات والدفعات</string>
+    <string name="payments_foundational_desc">هيكل شاشة الدفعات جاهز. تُسجل سندات القبض وتُخصص حصرياً للفواتير الفعالة المستحقة مع منع الأرصدة الدائنة.</string>
+    <string name="settings_foundational_title">إعدادات التطبيق</string>
+    <string name="settings_db_version">إصدار قاعدة البيانات: 1 (Room محلي)</string>
+    <string name="settings_currency_info">العملة الأساسية: الدينار العراقي (IQD - بدون كسور)</string>
+    <string name="settings_audit_info">سجل التدقيق (AuditLog): مفعّل لجميع العمليات المالية</string>
+</resources>

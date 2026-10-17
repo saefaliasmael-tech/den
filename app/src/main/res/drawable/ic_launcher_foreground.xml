@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Drop shadow for main badge -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M31,31 h46 c3.3,0 6,2.7 6,6 v42 c0,3.3 -2.7,6 -6,6 H31 c-3.3,0 -6,-2.7 -6,-6 V37 c0,-3.3 2.7,-6 6,-6 z" />
+
+    <!-- Ledger notebook body in crisp white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,29 h46 c3.3,0 6,2.7 6,6 v42 c0,3.3 -2.7,6 -6,6 H30 c-3.3,0 -6,-2.7 -6,-6 V35 c0,-3.3 2.7,-6 6,-6 z" />
+
+    <!-- Left spine / binding in dark green -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M24,35 c0,-3.3 2.7,-6 6,-6 v54 c-3.3,0 -6,-2.7 -6,-6 z" />
+
+    <!-- Header bar inside ledger in pale green -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M34,35 h42 v8 H34 z" />
+
+    <!-- Financial ledger entry lines -->
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M34,48 h26 v2.5 H34 z M34,55 h32 v2.5 H34 z M34,62 h20 v2.5 H34 z" />
+
+    <!-- Gold coin / checkmark badge overlapping bottom right -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M66,56 A12,12 0 1,0 66,80 A12,12 0 1,0 66,56 Z" />
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M66,59 A9,9 0 1,0 66,77 A9,9 0 1,0 66,59 Z" />
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M64,72.5 l-4,-4 1.4,-1.4 2.6,2.6 6.6,-6.6 1.4,1.4 z" />
+</vector>
